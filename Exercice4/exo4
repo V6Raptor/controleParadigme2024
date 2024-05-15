@@ -1,0 +1,7 @@
+const filtre = (list) => {
+    return list.filter(x => parseInt(x) === x);
+};
+
+console.log(filtre([1, 2, 'a', 'b']));
+console.log(filtre([1, 'a', 'b', 0, 15]));
+console.log(filtre([1, 2, 'aasf', '3', '124', 123]));
